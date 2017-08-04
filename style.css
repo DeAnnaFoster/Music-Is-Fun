@@ -1,0 +1,50 @@
+*{
+     outline: 1px solid black;   
+}
+.test{
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    background: url('./ocean.jpg') no-repeat center center fixed;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
+.card-deck{
+    text-align: middle; 
+    display: inline-block;
+    width: 100%;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    /* margin: auto; */
+    text-align: left; 
+    display: inline-block;
+
+    margin: auto;
+}
+.btn{
+    width: 50px;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+}
+.card-outline-primary{
+    margin: auto;
+    padding: 0;
+
+}
+
+.audio{
+    width: 200px;
+   
+}

@@ -1,5 +1,5 @@
 *{
-     outline: 1px solid black;   
+     /* outline: 1px solid black;    */
 }
 .test{
     text-align: center;
@@ -15,8 +15,8 @@ body{
     background-size: cover;
 }
 .card-img-top{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 .card-deck{
     text-align: middle; 
@@ -24,27 +24,32 @@ body{
     width: 100%;
 }
 .card{
-    width: 200px;
-    padding: 10px;
-    /* margin: auto; */
+    width: 250px;
+    padding: 5px;
     text-align: left; 
     display: inline-block;
 
     margin: auto;
 }
+.card-title{
+    height: 35px;
+    font-size: 12px;
+}
 .btn{
     width: 50px;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
-    margin: auto;
 }
+
 .card-outline-primary{
-    margin: auto;
     padding: 0;
-
+    margin: 5px;
 }
 
-.audio{
-    width: 200px;
-   
+.btn-primary{
+    width: 100px;
+}
+
+p, h4{
+    font-size: 12px;
 }

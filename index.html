@@ -21,7 +21,9 @@
     <div id="songs">
         <!-- Change next line to add number of results and SearchTerm -->
         <div class="container-fluid">
-            <h2>Summary of XXX Results for: YYY</h2>
+            <div id="mainTitle">
+                <h2>Summary of Results for: </h2>
+            </div>
             <div class="row">
                 <div class="col-xs-12">
 
@@ -31,43 +33,11 @@
 
                             <div class="col-xs-10">
                                 <div class="card-deck">
+                                    <div id="templateInsert">
 
+                                        <!-- Template Goes Here -->
 
-                                    <div class="card card-outline-primary">
-                                        <img class="card-img-top" src="http://www.terrastemple.com/wp-content/uploads/2013/04/color_of_music-1680x1050.jpg" alt="song image">
-                                        <div class="card-block">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <audio id="test" src="Kalimba.mp3" type="audio/wav"></audio>
-                                            <div>
-                                                <button type="button" id= "test1" class="btn btn-default" onclick="app.controllers.itunesCtrl.toggle()">Play</button>
-                                            </div>
-                                        </div>
                                     </div>
-
-
-                                    <div class="card card-outline-primary">
-                                        <img class="card-img-top" src="http://www.terrastemple.com/wp-content/uploads/2013/04/color_of_music-1680x1050.jpg" alt="song image">
-                                        <div class="card-block">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <audio id="test" src="Kalimba.mp3" type="audio/wav"></audio>
-                                            <div>
-                                                <button type="button" id= "test1" class="btn btn-default" onclick="app.controllers.itunesCtrl.toggle()">Play</button>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card card-outline-primary">
-                                        <img class="card-img-top" src="http://www.terrastemple.com/wp-content/uploads/2013/04/color_of_music-1680x1050.jpg" alt="song image">
-                                        <div class="card-block">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <audio id="test" src="Kalimba.mp3" type="audio/wav"></audio>
-                                            <div>
-                                                <button type="button" id= "test1" class="btn btn-default" onclick="app.controllers.itunesCtrl.toggle()">Play</button>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
                                 </div>
                             </div>
 
@@ -78,38 +48,7 @@
                 </div>
             </div>
         </div>
-        <div>
-
-
-
-
-
-            <ul id="song-list">
-                <!--SONGS ADDED DYNAMICALLY HERE-->
-            </ul>
-
-
-
-
-
-
-        </div>
-
     </div>
-
-    <!--
-    var app = {
-  controllers: {
-    itunesCtrl: new ItunesController()
-  }
-}     app.controllers.itunesCtrl
--->
-
-
-    <!-- ****************************************************************************** -->
-
-
-
 
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
     <script src="itunes-service.js"></script>

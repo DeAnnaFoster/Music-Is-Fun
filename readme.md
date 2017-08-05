@@ -39,9 +39,9 @@ There are several ways to manipulate the DOM and add these elements. Primarily a
 ```
 
 Requirements:
-- `5 points`: All songs are drawn to the page when the button is clicked - *(should be somewhere around 50 per search)*
-- `2.5 points`: Each search will clear the previously loaded songs from the output
-- `2.5 points`: Each property of the `song object` is rendered to the page 
+- `5 points`: All songs are drawn to the page when the button is clicked - *(should be somewhere around 50 per search)*   DONE
+- `2.5 points`: Each search will clear the previously loaded songs from the output                                        DONE
+- `2.5 points`: Each property of the `song object` is rendered to the page                                                DONE
 
 ### Step 2 - Prettify with Bootstrap `Total Points: 10`
 
@@ -52,15 +52,15 @@ Styling is a hard area to grade so at a bare minimum you will need to show your 
 </div>
 
 Requirements:
-- `5 points`: Utilize bootstrap 12 column grid system
-- `5 points`: Utilize at least 2 bootstrap components
+- `5 points`: Utilize bootstrap 12 column grid system   DONE
+- `5 points`: Utilize at least 2 bootstrap components   DONE
 
 
 ### BONUS - Preview the Songs `Total Points: 5`
 Requirements: 
-- Clicking on the title should play the 30 second preview (2)
-- The preview must play without opening a new browser window (1)
-- Clicking play on a title while another song is already playing will stop the previous song and start the new one (3)
+- Clicking on the title should play the 30 second preview (2)       DONE
+- The preview must play without opening a new browser window (1)    DONE
+- Clicking play on a title while another song is already playing will stop the previous song and start the new one (3)  DONE
 
 ### Finished?
 When You are finished please slack the url for your github repo to your mentor with in a DM. You are free to work on this however you like but ultimately it needs to be added to your github.
